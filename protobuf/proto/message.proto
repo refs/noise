@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package messaging;
-option go_package = "github.com/refs/noise/pkg/proto/message";
+option go_package = ".;message";
 
 import "google/protobuf/timestamp.proto";
 
