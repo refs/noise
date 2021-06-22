@@ -28,3 +28,7 @@ message Transcript {
 ```console
 protoc -I=proto --go_out=lib/ proto/*.proto
 ```
+
+Now with this as baseline let's alter the proto file and use git diff to analyze the changes to the generated code.
+
+### Q: What happens when we add a field?
