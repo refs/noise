@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package messaging;
+option go_package = "github.com/refs/noise/pkg/proto/message";
+
+import "google/protobuf/timestamp.proto";
+
+message Transcript {
+  google.protobuf.Timestamp received_at = 1;
+  string body = 2;
+}
